@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        table, tr, td {
+  border: 1px solid black;
+  width: 500px;
+  height: 30px;
+  text-align: center;
+  background-color: aqua;
+  
+}
+#hidden1{
+    display: none;
+}
+#hidden2{
+    display: none;
+}
+#allElement{
+    margin-top: 50px;
+    margin-left: 30%;
+    
+}
+
+    </style>
+</head>
+<body>
+    <div id="allElement">
+    <input style="block-size: 30px;background-color: aquamarine;" id="inputName" type="text" placeholder="Enter your name">
+    <input style="block-size: 30px;background-color: aquamarine;" id="inputAge" type="text" placeholder="Enter your age">
+    <button style="block-size: 30px;background-color: blueviolet; " onclick="submit()"><b>Submit</b></button>
+    
+    <table >
+       <tr>
+        <td><b>Key</b></td>
+        <td><b>Value</b></td>
+       </tr>
+       <tr>
+        <td><p id="hidden1">Name</p></td>
+        <td><p id="displayName"></p></td>
+       </tr>
+       <tr>
+        <td><p id="hidden2">Age</p></td>
+        <td><p id="displayAge"></p></td>
+       </tr>
+    </table>
+    <button style=" background-color: rgb(172, 213, 172);block-size: 38px;" onclick="button()"><b>Click Here</b></button>
+   </div>
+
+
+</body>
+</html>
+<script src="index.js">
+
+</script>
